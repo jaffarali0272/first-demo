@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 
 	
-	@GetMapping("/")
+	@GetMapping("/test")
 	public String getString() {
 		
 		return "This is Test for jenkins...";
