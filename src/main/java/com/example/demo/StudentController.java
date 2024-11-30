@@ -10,6 +10,6 @@ public class StudentController {
 	@GetMapping("/")
 	public String getString() {
 		
-		return "This is Test";
+		return "This is Test for jenkins...";
 	}
 }
